@@ -8,6 +8,7 @@ public class Cliente {
     private String surname;
     private String email;
     private String registrationDate;
+
     public Cliente(String name, String surname, String email, String registrationDate) {
         Random rndm = new Random();
         this.userId = rndm.nextInt(1, 1000);
@@ -23,7 +24,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "{" +
                 "userId=" + userId +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +

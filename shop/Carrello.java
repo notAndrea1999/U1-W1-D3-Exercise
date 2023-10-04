@@ -31,8 +31,8 @@ public class Carrello {
     @Override
     public String toString() {
         return "Carrello{" +
-                "userId=" + userId +
-                ", myArr=" + Arrays.toString(myArr) +
+                "Cliente=" + userId +
+                ", Articoli=" + Arrays.toString(myArr) +
                 ", itemSum=" + itemSum +
                 '}';
     }
