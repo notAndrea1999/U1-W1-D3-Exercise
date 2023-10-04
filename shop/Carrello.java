@@ -15,6 +15,10 @@ public class Carrello {
 
     public void setMyArr(Articolo[] myArr) {
         this.myArr = myArr;
+        this.itemSum = 0;
+        for (int i = 0; i < myArr.length; i++) {
+            this.itemSum = this.itemSum + myArr[i].getPrice();
+        }
     }
 
     public double setItemSum() {
